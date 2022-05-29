@@ -92,5 +92,5 @@ class Solution:
 
 ## 练习
 
-- [ ] [strStr](https://leetcode-cn.com/problems/implement-strstr/)
-- [ ] [subsets](https://leetcode-cn.com/problems/subsets/)
+- [ ] [strStr](https://leetcode.com/problems/implement-strstr/)
+- [ ] [subsets](https://leetcode.com/problems/subsets/)
