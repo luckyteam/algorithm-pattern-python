@@ -360,10 +360,10 @@ class Solution:
 ## 练习题
 
 - [ ] [search-for-range](https://www.lintcode.com/problem/search-for-a-range/description)
-- [ ] [search-insert-position](https://leetcode-cn.com/problems/search-insert-position/)
-- [ ] [search-a-2d-matrix](https://leetcode-cn.com/problems/search-a-2d-matrix/)
-- [ ] [first-bad-version](https://leetcode-cn.com/problems/first-bad-version/)
-- [ ] [find-minimum-in-rotated-sorted-array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
-- [ ] [find-minimum-in-rotated-sorted-array-ii](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)
-- [ ] [search-in-rotated-sorted-array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
-- [ ] [search-in-rotated-sorted-array-ii](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
+- [ ] [search-insert-position](https://leetcode.com/problems/search-insert-position/)
+- [ ] [search-a-2d-matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+- [ ] [first-bad-version](https://leetcode.com/problems/first-bad-version/)
+- [ ] [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+- [ ] [find-minimum-in-rotated-sorted-array-ii](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
+- [ ] [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- [ ] [search-in-rotated-sorted-array-ii](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
