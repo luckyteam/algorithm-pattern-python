@@ -2,7 +2,7 @@
 
 用于处理不相交集合 (disjoint sets) 合并及查找的问题，典型应用有连通分量检测，环路检测等。原理和复杂度分析等可以参考[维基百科](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)。
 
-### [redundant-connection](https://leetcode-cn.com/problems/redundant-connection/)
+### [redundant-connection](https://leetcode.com/problems/redundant-connection/)
 
 ```Python
 class Solution:
@@ -35,7 +35,7 @@ class Solution:
                 return edge
 ```
 
-### [accounts-merge](https://leetcode-cn.com/problems/accounts-merge/)
+### [accounts-merge](https://leetcode.com/problems/accounts-merge/)
 
 ```Python
 class Solution:
@@ -82,7 +82,7 @@ class Solution:
         return [[email2name[s[0]]] + sorted(s) for s in result.values()]
 ```
 
-### [longest-consecutive-sequence](https://leetcode-cn.com/problems/longest-consecutive-sequence/)
+### [longest-consecutive-sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 
 ```Python
 class Solution:

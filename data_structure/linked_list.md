@@ -15,7 +15,7 @@
 
 ## 常见题型
 
-### [remove-duplicates-from-sorted-list](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
+### [remove-duplicates-from-sorted-list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 
 > 给定一个排序链表，删除所有重复的元素，使得每个元素只出现一次。
 
@@ -37,7 +37,7 @@ class Solution:
         return head
 ```
 
-### [remove-duplicates-from-sorted-list-ii](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)
+### [remove-duplicates-from-sorted-list-ii](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
 
 > 给定一个排序链表，删除所有含有重复数字的节点，只保留原始链表中   没有重复出现的数字。
 
@@ -77,7 +77,7 @@ class Solution:
 • 删除用一个 Dummy Node 节点辅助（允许头节点可变）
 • 访问 X.next 、X.value 一定要保证 X != nil
 
-### [reverse-linked-list](https://leetcode-cn.com/problems/reverse-linked-list/)
+### [reverse-linked-list](https://leetcode.com/problems/reverse-linked-list/)
 
 > 反转一个单链表。
 
@@ -115,7 +115,7 @@ class Solution:
         return rev_next
 ```
 
-### [reverse-linked-list-ii](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
+### [reverse-linked-list-ii](https://leetcode.com/problems/reverse-linked-list-ii/)
 
 > 反转从位置  *m*  到  *n*  的链表。请使用一趟扫描完成反转。
 
@@ -145,7 +145,7 @@ class Solution:
         return dummy.next
 ```
 
-### [merge-two-sorted-lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
+### [merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 
 > 将两个升序链表合并为一个新的升序链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。
 
@@ -173,7 +173,7 @@ class Solution:
         return dummy.next
 ```
 
-### [partition-list](https://leetcode-cn.com/problems/partition-list/)
+### [partition-list](https://leetcode.com/problems/partition-list/)
 
 > 给定一个链表和一个特定值 x，对链表进行分隔，使得所有小于  *x*  的节点都在大于或等于  *x*  的节点之前。
 
@@ -204,7 +204,7 @@ class Solution:
 
 > 当头节点不确定的时候，使用哑巴节点
 
-### [sort-list](https://leetcode-cn.com/problems/sort-list/)
+### [sort-list](https://leetcode.com/problems/sort-list/)
 
 > 在  *O*(*n* log *n*) 时间复杂度和常数级空间复杂度下，对链表进行排序。
 
@@ -257,7 +257,7 @@ class Solution:
 - 递归 mergeSort 需要断开中间节点
 - 递归返回条件为 head 为 nil 或者 head.Next 为 nil
 
-### [reorder-list](https://leetcode-cn.com/problems/reorder-list/)
+### [reorder-list](https://leetcode.com/problems/reorder-list/)
 
 > 给定一个单链表  *L*：*L*→*L*→…→*L\_\_n*→*L*
 > 将其重新排列后变为： *L*→*L\_\_n*→*L*→*L\_\_n*→*L*→*L\_\_n*→…
@@ -303,7 +303,7 @@ class Solution:
         return
 ```
 
-### [linked-list-cycle](https://leetcode-cn.com/problems/linked-list-cycle/)
+### [linked-list-cycle](https://leetcode.com/problems/linked-list-cycle/)
 
 > 给定一个链表，判断链表中是否有环。
 
@@ -326,7 +326,7 @@ class Solution:
         return False
 ```
 
-### [linked-list-cycle-ii](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
+### [linked-list-cycle-ii](https://leetcode.com/problems/linked-list-cycle-ii/)
 
 > 给定一个链表，返回链表开始入环的第一个节点。  如果链表无环，则返回  `null`。
 
@@ -365,7 +365,7 @@ class Solution:
 - fast 如果初始化为 head.Next 则中点在 slow.Next
 - fast 初始化为 head,则中点在 slow
 
-### [palindrome-linked-list](https://leetcode-cn.com/problems/palindrome-linked-list/)
+### [palindrome-linked-list](https://leetcode.com/problems/palindrome-linked-list/)
 
 > 请判断一个链表是否为回文链表。
 
@@ -393,7 +393,7 @@ class Solution:
         return True
 ```
 
-### [copy-list-with-random-pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)
+### [copy-list-with-random-pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
 
 > 给定一个链表，每个节点包含一个额外增加的随机指针，该指针可以指向链表中的任何节点或空节点。
 > 要求返回这个链表的 深拷贝。
@@ -476,15 +476,15 @@ class Solution:
 
 ## 练习
 
-- [ ] [remove-duplicates-from-sorted-list](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
-- [ ] [remove-duplicates-from-sorted-list-ii](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)
-- [ ] [reverse-linked-list](https://leetcode-cn.com/problems/reverse-linked-list/)
-- [ ] [reverse-linked-list-ii](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
-- [ ] [merge-two-sorted-lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
-- [ ] [partition-list](https://leetcode-cn.com/problems/partition-list/)
-- [ ] [sort-list](https://leetcode-cn.com/problems/sort-list/)
-- [ ] [reorder-list](https://leetcode-cn.com/problems/reorder-list/)
-- [ ] [linked-list-cycle](https://leetcode-cn.com/problems/linked-list-cycle/)
-- [ ] [linked-list-cycle-ii](https://leetcode-cn.com/problems/https://leetcode-cn.com/problems/linked-list-cycle-ii/)
-- [ ] [palindrome-linked-list](https://leetcode-cn.com/problems/palindrome-linked-list/)
-- [ ] [copy-list-with-random-pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)
+- [ ] [remove-duplicates-from-sorted-list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+- [ ] [remove-duplicates-from-sorted-list-ii](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
+- [ ] [reverse-linked-list](https://leetcode.com/problems/reverse-linked-list/)
+- [ ] [reverse-linked-list-ii](https://leetcode.com/problems/reverse-linked-list-ii/)
+- [ ] [merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+- [ ] [partition-list](https://leetcode.com/problems/partition-list/)
+- [ ] [sort-list](https://leetcode.com/problems/sort-list/)
+- [ ] [reorder-list](https://leetcode.com/problems/reorder-list/)
+- [ ] [linked-list-cycle](https://leetcode.com/problems/linked-list-cycle/)
+- [ ] [linked-list-cycle-ii](https://leetcode.com/problems/https://leetcode.com/problems/linked-list-cycle-ii/)
+- [ ] [palindrome-linked-list](https://leetcode.com/problems/palindrome-linked-list/)
+- [ ] [copy-list-with-random-pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)

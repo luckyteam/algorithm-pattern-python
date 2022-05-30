@@ -12,7 +12,7 @@
 
 ## Stack 栈
 
-### [min-stack](https://leetcode-cn.com/problems/min-stack/)
+### [min-stack](https://leetcode.com/problems/min-stack/)
 
 > 设计一个支持 push，pop，top 操作，并能在常数时间内检索到最小元素的栈。
 
@@ -40,7 +40,7 @@ class MinStack:
         return self.stack[-1][1]
 ```
 
-### [evaluate-reverse-polish-notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)
+### [evaluate-reverse-polish-notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
 
 > **波兰表达式计算** > **输入:** ["2", "1", "+", "3", "*"] > **输出:** 9
 > **解释:** ((2 + 1) \* 3) = 9
@@ -78,7 +78,7 @@ class Solution:
         return stack[0]
 ```
 
-### [decode-string](https://leetcode-cn.com/problems/decode-string/)
+### [decode-string](https://leetcode.com/problems/decode-string/)
 
 > 给定一个经过编码的字符串，返回它解码后的字符串。
 > s = "3[a]2[bc]", 返回 "aaabcbc".
@@ -111,7 +111,7 @@ class Solution:
         return stack_str[0]
 ```
 
-### [binary-tree-inorder-traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+### [binary-tree-inorder-traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
 > 给定一个二叉树，返回它的*中序*遍历。
 
@@ -136,7 +136,7 @@ class Solution:
         return inorder
 ```
 
-### [clone-graph](https://leetcode-cn.com/problems/clone-graph/)
+### [clone-graph](https://leetcode.com/problems/clone-graph/)
 
 > 给你无向连通图中一个节点的引用，请你返回该图的深拷贝（克隆）。
 
@@ -194,7 +194,7 @@ class Solution:
         return visited[start]
 ```
 
-### [number-of-islands](https://leetcode-cn.com/problems/number-of-islands/)
+### [number-of-islands](https://leetcode.com/problems/number-of-islands/)
 
 > 给定一个由  '1'（陆地）和 '0'（水）组成的的二维网格，计算岛屿的数量。一个岛被水包围，并且它是通过水平方向或垂直方向上相邻的陆地连接而成的。你可以假设网格的四个边均被水包围。
 
@@ -238,7 +238,7 @@ class Solution:
         return num_island
 ```
 
-### [largest-rectangle-in-histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
+### [largest-rectangle-in-histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 
 > 给定 _n_ 个非负整数，用来表示柱状图中各个柱子的高度。每个柱子彼此相邻，且宽度为 1 。
 > 求在该柱状图中，能够勾勒出来的矩形的最大面积。
@@ -327,7 +327,7 @@ class Solution:
 
 常用于 BFS 宽度优先搜索
 
-### [implement-queue-using-stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
+### [implement-queue-using-stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
 
 > 使用栈实现队列
 
@@ -370,7 +370,7 @@ class MyQueue:
         return len(self.cache) == 0 and len(self.out) == 0
 ```
 
-### [binary-tree-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
+### [binary-tree-level-order-traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
 > 二叉树的层序遍历
 
@@ -400,7 +400,7 @@ class Solution:
         return levels
 ```
 
-### [01-matrix](https://leetcode-cn.com/problems/01-matrix/)
+### [01-matrix](https://leetcode.com/problems/01-matrix/)
 
 > 给定一个由 0 和 1 组成的矩阵，找出每个元素到最近的 0 的距离。
 > 两个相邻元素间的距离为 1
@@ -475,7 +475,7 @@ class Solution:
 
 顾名思义，单调栈即是栈中元素有单调性的栈，典型应用为用线性的时间复杂度找左右两侧第一个大于/小于当前元素的位置。
 
-### [largest-rectangle-in-histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
+### [largest-rectangle-in-histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 
 ```Python
 class Solution:
@@ -491,7 +491,7 @@ class Solution:
         return result
 ```
 
-### [trapping-rain-water](https://leetcode-cn.com/problems/trapping-rain-water/)
+### [trapping-rain-water](https://leetcode.com/problems/trapping-rain-water/)
 
 ```Python
 class Solution:
@@ -515,7 +515,7 @@ class Solution:
 
 单调栈的拓展，可以从数组头 pop 出旧元素，典型应用是以线性时间获得区间最大/最小值。
 
-### [sliding-window-maximum](https://leetcode-cn.com/problems/sliding-window-maximum/)
+### [sliding-window-maximum](https://leetcode.com/problems/sliding-window-maximum/)
 
 > 求滑动窗口中的最大元素
 
@@ -549,7 +549,7 @@ class Solution:
         return result
 ```
 
-### [shortest-subarray-with-sum-at-least-k](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/)
+### [shortest-subarray-with-sum-at-least-k](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)
 
 ```Python
 class Solution:
@@ -585,12 +585,12 @@ class Solution:
 
 ## 练习
 
-- [ ] [min-stack](https://leetcode-cn.com/problems/min-stack/)
-- [ ] [evaluate-reverse-polish-notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)
-- [ ] [decode-string](https://leetcode-cn.com/problems/decode-string/)
-- [ ] [binary-tree-inorder-traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
-- [ ] [clone-graph](https://leetcode-cn.com/problems/clone-graph/)
-- [ ] [number-of-islands](https://leetcode-cn.com/problems/number-of-islands/)
-- [ ] [largest-rectangle-in-histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
-- [ ] [implement-queue-using-stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
-- [ ] [01-matrix](https://leetcode-cn.com/problems/01-matrix/)
+- [ ] [min-stack](https://leetcode.com/problems/min-stack/)
+- [ ] [evaluate-reverse-polish-notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
+- [ ] [decode-string](https://leetcode.com/problems/decode-string/)
+- [ ] [binary-tree-inorder-traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+- [ ] [clone-graph](https://leetcode.com/problems/clone-graph/)
+- [ ] [number-of-islands](https://leetcode.com/problems/number-of-islands/)
+- [ ] [largest-rectangle-in-histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+- [ ] [implement-queue-using-stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+- [ ] [01-matrix](https://leetcode.com/problems/01-matrix/)

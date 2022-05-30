@@ -43,7 +43,7 @@ def postorder_rec(root):
     return
 ```
 
-#### [前序非递归](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
+#### [前序非递归](https://leetcode.com/problems/binary-tree-preorder-traversal/)
 
 - 本质上是图的DFS的一个特例，因此可以用栈来实现
 
@@ -67,7 +67,7 @@ class Solution:
         return preorder
 ```
 
-#### [中序非递归](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+#### [中序非递归](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
 ```Python
 class Solution:
@@ -85,7 +85,7 @@ class Solution:
         return inorder
 ```
 
-#### [后序非递归](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
+#### [后序非递归](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 
 ```Python
 class Solution:
@@ -133,7 +133,7 @@ class Solution:
 
 > DFS 深度搜索（从上到下） 和分治法区别：前者一般将最终结果通过指针参数传入，后者一般递归返回结果最后合并
 
-#### [BFS 层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
+#### [BFS 层次遍历](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
 ```Python
 class Solution:
@@ -179,7 +179,7 @@ class Solution:
 
 ## 常见题目示例
 
-### [maximum-depth-of-binary-tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+### [maximum-depth-of-binary-tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 
 > 给定一个二叉树，找出其最大深度。
 
@@ -220,7 +220,7 @@ class Solution:
         return depth
 ```
 
-### [balanced-binary-tree](https://leetcode-cn.com/problems/balanced-binary-tree/)
+### [balanced-binary-tree](https://leetcode.com/problems/balanced-binary-tree/)
 
 > 给定一个二叉树，判断它是否是高度平衡的二叉树。
 
@@ -278,7 +278,7 @@ class Solution:
         return True
 ```
 
-### [binary-tree-maximum-path-sum](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)
+### [binary-tree-maximum-path-sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 
 > 给定一个**非空**二叉树，返回其最大路径和。
 
@@ -305,7 +305,7 @@ class Solution:
         return self.maxPath
 ```
 
-### [lowest-common-ancestor-of-a-binary-tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+### [lowest-common-ancestor-of-a-binary-tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 
 > 给定一个二叉树, 找到该树中两个指定节点的最近公共祖先。
 
@@ -336,7 +336,7 @@ class Solution:
 
 ### BFS 层次应用
 
-### [binary-tree-zigzag-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)
+### [binary-tree-zigzag-level-order-traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
 
 > 给定一个二叉树，返回其节点值的锯齿形层次遍历。Z 字形遍历
 
@@ -382,7 +382,7 @@ class Solution:
 
 ### 二叉搜索树应用
 
-### [validate-binary-search-tree](https://leetcode-cn.com/problems/validate-binary-search-tree/)
+### [validate-binary-search-tree](https://leetcode.com/problems/validate-binary-search-tree/)
 
 > 给定一个二叉树，判断其是否是一个有效的二叉搜索树。
 
@@ -440,7 +440,7 @@ class Solution:
         return True
 ```
 
-#### [insert-into-a-binary-search-tree](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)
+#### [insert-into-a-binary-search-tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)
 
 > 给定二叉搜索树（BST）的根节点和要插入树中的值，将值插入二叉搜索树。 返回插入后二叉搜索树的根节点。
 

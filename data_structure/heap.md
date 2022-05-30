@@ -6,7 +6,7 @@
 
 找数据中第 K 个最大/最小数据是堆的一个典型应用。以找最大为例，遍历数据时，使用一个最小堆来维护当前最大的 K 个数据，堆顶数据为这 K 个数据中最小，即是你想要的第 k 个最大数据。每检查一个新数据，判断是否大于堆顶，若大于，说明堆顶数据小于了 K 个值，不是我们想找的第 K 个最大，则将新数据 push 进堆并 pop 掉堆顶，若小于则不操作，这样当遍历完全部数据后堆顶即为想要的结果。找最小时换成最大堆即可。
 
-### [kth-largest-element-in-a-stream](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/)
+### [kth-largest-element-in-a-stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
 
 > 设计一个找到数据流中第K大元素的类。
 
@@ -31,7 +31,7 @@ class KthLargest:
         return self.min_heap[0]
 ```
 
-### [kth-smallest-element-in-a-sorted-matrix](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+### [kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
 
 > 给定一个 n x n 矩阵，其中每行和每列元素均按升序排序，找到矩阵中第 k 小的元素。
 
@@ -60,7 +60,7 @@ class Solution:
         return num
 ```
 
-### [find-k-pairs-with-smallest-sums](https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/)
+### [find-k-pairs-with-smallest-sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)
 
 ```Python
 class Solution:
@@ -92,12 +92,12 @@ class Solution:
 
 Heap 可以高效地取出或更新当前池中优先级最高的元素，因此适用于一些需要 greedy 算法的场景。
 
-### [maximum-performance-of-a-team](https://leetcode-cn.com/problems/maximum-performance-of-a-team/)
+### [maximum-performance-of-a-team](https://leetcode.com/problems/maximum-performance-of-a-team/)
 
 > 公司有 n 个工程师，给两个数组 speed 和 efficiency，其中 speed[i] 和 efficiency[i] 分别代表第 i 位工程师的速度和效率。请你返回由最多 k 个工程师组成的团队的最大表现值。表现值的定义为：一个团队中所有工程师速度的和乘以他们效率值中的最小值。
 >
 
-- [See my review here.](https://leetcode.com/problems/maximum-performance-of-a-team/discuss/741822/Met-this-problem-in-my-interview!!!-(Python3-greedy-with-heap)) [或者这里(中文)](https://leetcode-cn.com/problems/maximum-performance-of-a-team/solution/greedy-with-min-heap-lai-zi-zhen-shi-mian-shi-de-j/)
+- [See my review here.](https://leetcode.com/problems/maximum-performance-of-a-team/discuss/741822/Met-this-problem-in-my-interview!!!-(Python3-greedy-with-heap)) [或者这里(中文)](https://leetcode.com/problems/maximum-performance-of-a-team/solution/greedy-with-min-heap-lai-zi-zhen-shi-mian-shi-de-j/)
 
 ```Python
 # similar question: LC 857
@@ -121,7 +121,7 @@ class Solution:
         return result #% 1000000007
 ```
 
-### [ipo](https://leetcode-cn.com/problems/ipo/)
+### [ipo](https://leetcode.com/problems/ipo/)
 
 - 贪心策略为每次做当前成本范围内利润最大的项目。
 
@@ -148,7 +148,7 @@ class Solution:
         return W
 ```
 
-### [meeting-rooms-ii](https://leetcode-cn.com/problems/meeting-rooms-ii/)
+### [meeting-rooms-ii](https://leetcode.com/problems/meeting-rooms-ii/)
 
 - 此题用 greedy + heap 解并不是很 intuitive，存在复杂度相同但更简单直观的做法。
 
@@ -170,7 +170,7 @@ class Solution:
         return len(end_times)
 ```
 
-### [reorganize-string](https://leetcode-cn.com/problems/reorganize-string/)
+### [reorganize-string](https://leetcode.com/problems/reorganize-string/)
 
 > 给定一个字符串 S，检查是否能重新排布其中的字母，使得任意两相邻的字符不同。若可行，输出任意可行的结果。若不可行，返回空字符串。
 
@@ -260,7 +260,7 @@ class Solution:
 
 实现上是 greedy + heap 的一个应用，用于求解图的单源最短路径相关的问题，生成的树为最短路径树 (SPT)。
 
-### [network-delay-time](https://leetcode-cn.com/problems/network-delay-time/)
+### [network-delay-time](https://leetcode.com/problems/network-delay-time/)
 
 - 标准的单源最短路径问题，使用朴素的的 Dijikstra 算法即可，可以当成模板使用。
 
@@ -288,7 +288,7 @@ class Solution:
         return max(SPT.values()) if len(SPT) == N else -1
 ```
 
-### [cheapest-flights-within-k-stops](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops/)
+### [cheapest-flights-within-k-stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
 
 - 在标准的单源最短路径问题上限制了路径的边数，因此需要同时维护当前 SPT 内每个结点最短路径的边数，当遇到边数更小的路径 (边权和可以更大) 时结点需要重新入堆，以更新后继在边数上限内没达到的结点。
 
