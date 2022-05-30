@@ -477,12 +477,12 @@ class Solution:
 
 ## 练习
 
-- [ ] [maximum-depth-of-binary-tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
-- [ ] [balanced-binary-tree](https://leetcode-cn.com/problems/balanced-binary-tree/)
-- [ ] [binary-tree-maximum-path-sum](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)
-- [ ] [lowest-common-ancestor-of-a-binary-tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
-- [ ] [binary-tree-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
-- [ ] [binary-tree-level-order-traversal-ii](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)
-- [ ] [binary-tree-zigzag-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)
-- [ ] [validate-binary-search-tree](https://leetcode-cn.com/problems/validate-binary-search-tree/)
-- [ ] [insert-into-a-binary-search-tree](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)
+- [ ] [maximum-depth-of-binary-tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+- [ ] [balanced-binary-tree](https://leetcode.com/problems/balanced-binary-tree/)
+- [ ] [binary-tree-maximum-path-sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+- [ ] [lowest-common-ancestor-of-a-binary-tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+- [ ] [binary-tree-level-order-traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+- [ ] [binary-tree-level-order-traversal-ii](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
+- [ ] [binary-tree-zigzag-level-order-traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+- [ ] [validate-binary-search-tree](https://leetcode.com/problems/validate-binary-search-tree/)
+- [ ] [insert-into-a-binary-search-tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)
