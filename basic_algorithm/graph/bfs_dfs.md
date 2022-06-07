@@ -78,7 +78,7 @@ def BFS(x):
 
 ## 例题
 
-### [walls-and-gates](https://leetcode-cn.com/problems/walls-and-gates/)
+### [walls-and-gates](https://leetcode.com/problems/walls-and-gates/)
 
 > 给定一个二维矩阵，矩阵中元素 -1 表示墙或是障碍物，0 表示一扇门，INF (2147483647) 表示一个空的房间。你要给每个空房间位上填上该房间到最近门的距离，如果无法到达门，则填 INF 即可。
 
@@ -132,7 +132,7 @@ class Solution:
         return
 ```
 
-### [shortest-bridge](https://leetcode-cn.com/problems/shortest-bridge/)
+### [shortest-bridge](https://leetcode.com/problems/shortest-bridge/)
 
 > 在给定的 01 矩阵 A 中，存在两座岛 (岛是由四面相连的 1 形成的一个连通分量)。现在，我们可以将 0 变为 1，以使两座岛连接起来，变成一座岛。返回必须翻转的 0 的最小数目。
 >
@@ -188,7 +188,7 @@ class Solution:
             flip += 1
 ```
 
-### [sliding-puzzle](https://leetcode-cn.com/problems/sliding-puzzle)
+### [sliding-puzzle](https://leetcode.com/problems/sliding-puzzle)
 
 ```Python
 class Solution:

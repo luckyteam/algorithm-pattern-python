@@ -2,7 +2,7 @@
 
 图的邻接表和邻接矩阵表示最为常用，但是有时需要建图时这两种表示效率不是很高，因为需要构造每个结点和每一条边。此时使用一些隐式的表示方法可以提升建图效率。
 
-### [word-ladder](https://leetcode-cn.com/problems/word-ladder/)
+### [word-ladder](https://leetcode.com/problems/word-ladder/)
 
 ```Python
 class Solution:

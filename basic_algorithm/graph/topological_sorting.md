@@ -2,7 +2,7 @@
 
 图的拓扑排序 (topological sorting) 一般用于给定一系列偏序关系，求一个全序关系的题目中。以元素为结点，以偏序关系为边构造有向图，然后应用拓扑排序算法即可得到全序关系。
 
-### [course-schedule-ii](https://leetcode-cn.com/problems/course-schedule-ii/)
+### [course-schedule-ii](https://leetcode.com/problems/course-schedule-ii/)
 
 > 给定课程的先修关系，求一个可行的修课顺序
 
@@ -114,7 +114,7 @@ class Solution:
         return tsort if len(tsort) == numCourses else []
 ```
 
-### [alien-dictionary](https://leetcode-cn.com/problems/alien-dictionary/)
+### [alien-dictionary](https://leetcode.com/problems/alien-dictionary/)
 
 ```Python
 class Solution:
@@ -161,7 +161,7 @@ class Solution:
         return ''.join(tsort) if len(tsort) == len(indegree) else ''
 ```
 
-### [sequence-reconstruction](https://leetcode-cn.com/problems/sequence-reconstruction/)
+### [sequence-reconstruction](https://leetcode.com/problems/sequence-reconstruction/)
 
 Kahn's algorithm 可以判断拓扑排序是否唯一。
 

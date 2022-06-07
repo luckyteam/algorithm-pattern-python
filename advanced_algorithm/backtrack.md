@@ -22,7 +22,7 @@ func backtrack(选择列表,路径):
 
 ## 示例
 
-### [subsets](https://leetcode-cn.com/problems/subsets/)
+### [subsets](https://leetcode.com/problems/subsets/)
 
 > 给定一组不含重复元素的整数数组 nums，返回该数组所有可能的子集（幂集）。
 
@@ -55,7 +55,7 @@ class Solution:
         return result
 ```
 
-### [subsets-ii](https://leetcode-cn.com/problems/subsets-ii/)
+### [subsets-ii](https://leetcode.com/problems/subsets-ii/)
 
 > 给定一个可能包含重复元素的整数数组 nums，返回该数组所有可能的子集（幂集）。说明：解集不能包含重复的子集。
 
@@ -88,7 +88,7 @@ class Solution:
         return result
 ```
 
-### [permutations](https://leetcode-cn.com/problems/permutations/)
+### [permutations](https://leetcode.com/problems/permutations/)
 
 > 给定一个没有重复数字的序列，返回其所有可能的全排列。
 
@@ -145,7 +145,7 @@ class Solution:
         return result
 ```
 
-### [permutations-ii](https://leetcode-cn.com/problems/permutations-ii/)
+### [permutations-ii](https://leetcode.com/problems/permutations-ii/)
 
 > 给定一个可包含重复数字的序列，返回所有不重复的全排列。
 
@@ -182,7 +182,7 @@ class Solution:
         return result
 ```
 
-### [combination-sum](https://leetcode-cn.com/problems/combination-sum/)
+### [combination-sum](https://leetcode.com/problems/combination-sum/)
 
 ```Python
 class Solution:
@@ -212,7 +212,7 @@ class Solution:
         return result
 ```
 
-### [letter-combinations-of-a-phone-number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
+### [letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 
 ```Python
 class Solution:
@@ -251,7 +251,7 @@ class Solution:
         return result
 ```
 
-### [palindrome-partitioning](https://leetcode-cn.com/problems/palindrome-partitioning/)
+### [palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 
 ```Python
 class Solution:
@@ -289,7 +289,7 @@ class Solution:
         return result
 ```
 
-### [restore-ip-addresses](https://leetcode-cn.com/problems/restore-ip-addresses/)
+### [restore-ip-addresses](https://leetcode.com/problems/restore-ip-addresses/)
 
 ```Python
 class Solution:
@@ -327,12 +327,12 @@ class Solution:
 
 ## 练习
 
-- [ ] [subsets](https://leetcode-cn.com/problems/subsets/)
-- [ ] [subsets-ii](https://leetcode-cn.com/problems/subsets-ii/)
-- [ ] [permutations](https://leetcode-cn.com/problems/permutations/)
-- [ ] [permutations-ii](https://leetcode-cn.com/problems/permutations-ii/)
+- [ ] [subsets](https://leetcode.com/problems/subsets/)
+- [ ] [subsets-ii](https://leetcode.com/problems/subsets-ii/)
+- [ ] [permutations](https://leetcode.com/problems/permutations/)
+- [ ] [permutations-ii](https://leetcode.com/problems/permutations-ii/)
 
-- [ ] [combination-sum](https://leetcode-cn.com/problems/combination-sum/)
-- [ ] [letter-combinations-of-a-phone-number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
-- [ ] [palindrome-partitioning](https://leetcode-cn.com/problems/palindrome-partitioning/)
-- [ ] [restore-ip-addresses](https://leetcode-cn.com/problems/restore-ip-addresses/)
+- [ ] [combination-sum](https://leetcode.com/problems/combination-sum/)
+- [ ] [letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+- [ ] [palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning/)
+- [ ] [restore-ip-addresses](https://leetcode.com/problems/restore-ip-addresses/)

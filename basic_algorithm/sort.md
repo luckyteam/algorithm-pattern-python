@@ -135,7 +135,7 @@ if __name__ == '__main__':
 
 ## 题目
 
-### [kth-largest-element-in-an-array](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
+### [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 
 - 思路 1: sort 后取第 k 个，最简单直接，复杂度 O(N log N) 代码略
 

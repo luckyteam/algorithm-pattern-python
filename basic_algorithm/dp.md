@@ -4,7 +4,7 @@
 
 先从一道题目开始~
 
-如题  [triangle](https://leetcode-cn.com/problems/triangle/)
+如题  [triangle](https://leetcode.com/problems/triangle/)
 
 > 给定一个三角形，找出自顶向下的最小路径和。每一步只能移动到下一行中相邻的结点上。
 
@@ -103,7 +103,7 @@ Function(x) {
   - 求可行个数（Count(\*) ）
 - 满足不能排序或者交换（Can not sort / swap ）
 
-如题：[longest-consecutive-sequence](https://leetcode-cn.com/problems/longest-consecutive-sequence/)  位置可以交换，所以不用动态规划
+如题：[longest-consecutive-sequence](https://leetcode.com/problems/longest-consecutive-sequence/)  位置可以交换，所以不用动态规划
 
 ## 四点要素
 
@@ -129,7 +129,7 @@ Function(x) {
 
 ## 1、矩阵类型（10%）
 
-### [minimum-path-sum](https://leetcode-cn.com/problems/minimum-path-sum/)
+### [minimum-path-sum](https://leetcode.com/problems/minimum-path-sum/)
 
 > 给定一个包含非负整数的  *m* x *n*  网格，请找出一条从左上角到右下角的路径，使得路径上的数字总和为最小。
 
@@ -162,7 +162,7 @@ class Solution:
         return dp[-1]
 ```
 
-### [unique-paths](https://leetcode-cn.com/problems/unique-paths/)
+### [unique-paths](https://leetcode.com/problems/unique-paths/)
 
 > 一个机器人位于一个 m x n 网格的左上角 （起始点在下图中标记为“Start” ）。
 > 机器人每次只能向下或者向右移动一步。机器人试图达到网格的右下角（在下图中标记为“Finish”）。
@@ -184,7 +184,7 @@ class Solution:
         return dp[-1]
 ```
 
-### [unique-paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/)
+### [unique-paths-ii](https://leetcode.com/problems/unique-paths-ii/)
 
 > 一个机器人位于一个 m x n 网格的左上角 （起始点在下图中标记为“Start” ）。
 > 机器人每次只能向下或者向右移动一步。机器人试图达到网格的右下角（在下图中标记为“Finish”）。
@@ -212,7 +212,7 @@ class Solution:
 
 ## 2、序列类型（40%）
 
-### [climbing-stairs](https://leetcode-cn.com/problems/climbing-stairs/)
+### [climbing-stairs](https://leetcode.com/problems/climbing-stairs/)
 
 > 假设你正在爬楼梯。需要  *n*  阶你才能到达楼顶。
 
@@ -229,7 +229,7 @@ class Solution:
         return step1
 ```
 
-### [jump-game](https://leetcode-cn.com/problems/jump-game/)
+### [jump-game](https://leetcode.com/problems/jump-game/)
 
 > 给定一个非负整数数组，你最初位于数组的第一个位置。
 > 数组中的每个元素代表你在该位置可以跳跃的最大长度。
@@ -265,7 +265,7 @@ class Solution:
         return True
 ```
 
-### [jump-game-ii](https://leetcode-cn.com/problems/jump-game-ii/)
+### [jump-game-ii](https://leetcode.com/problems/jump-game-ii/)
 
 > 给定一个非负整数数组，你最初位于数组的第一个位置。
 > 数组中的每个元素代表你在该位置可以跳跃的最大长度。
@@ -293,7 +293,7 @@ class Solution:
         return min_step
 ```
 
-### [palindrome-partitioning-ii](https://leetcode-cn.com/problems/palindrome-partitioning-ii/)
+### [palindrome-partitioning-ii](https://leetcode.com/problems/palindrome-partitioning-ii/)
 
 > 给定一个字符串 _s_，将 _s_ 分割成一些子串，使每个子串都是回文串。
 > 返回符合要求的最少分割次数。
@@ -330,7 +330,7 @@ class Solution:
         return dp_min[-1]
 ```
 
-### [longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
+### [longest-increasing-subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 
 > 给定一个无序的整数数组，找到其中最长上升子序列的长度。
 
@@ -369,7 +369,7 @@ class Solution:
         return len(seq)
 ```
 
-### [word-break](https://leetcode-cn.com/problems/word-break/)
+### [word-break](https://leetcode.com/problems/word-break/)
 
 > 给定一个**非空**字符串  *s*  和一个包含**非空**单词列表的字典  *wordDict*，判定  *s*  是否可以被空格拆分为一个或多个在字典中出现的单词。
 
@@ -401,7 +401,7 @@ class Solution:
 
 ## Two Sequences DP（40%）
 
-### [longest-common-subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/)
+### [longest-common-subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 
 > 给定两个字符串  text1 和  text2，返回这两个字符串的最长公共子序列。
 > 一个字符串的   子序列   是指这样一个新的字符串：它是由原字符串在不改变字符的相对顺序的情况下删除某些字符（也可以不删除任何字符）后组成的新字符串。
@@ -437,7 +437,7 @@ class Solution:
         return dp[-1]
 ```
 
-### [edit-distance](https://leetcode-cn.com/problems/edit-distance/)
+### [edit-distance](https://leetcode.com/problems/edit-distance/)
 
 > 给你两个单词  word1 和  word2，请你计算出将  word1  转换成  word2 所使用的最少操作数  
 > 你可以对一个单词进行如下三种操作：
@@ -482,7 +482,7 @@ class Solution:
 
 ## 零钱和背包（10%）
 
-### [coin-change](https://leetcode-cn.com/problems/coin-change/)
+### [coin-change](https://leetcode.com/problems/coin-change/)
 
 > 给定不同面额的硬币 coins 和一个总金额 amount。编写一个函数来计算可以凑成总金额所需的最少的硬币个数。如果没有任何一种硬币组合能组成总金额，返回  -1。
 
@@ -558,7 +558,7 @@ class Solution:
 
 ## 补充
 
-### [maximum-product-subarray](https://leetcode-cn.com/problems/maximum-product-subarray/)
+### [maximum-product-subarray](https://leetcode.com/problems/maximum-product-subarray/)
 
 > 最大乘积子串
 
@@ -588,7 +588,7 @@ class Solution:
         return max_product
 ```
 
-### [decode-ways](https://leetcode-cn.com/problems/decode-ways/)
+### [decode-ways](https://leetcode.com/problems/decode-ways/)
 
 > 1 到 26 分别对应 a 到 z，给定输入数字串，问总共有多少种译码方法
 
@@ -611,7 +611,7 @@ class Solution:
         return dp_1
 ```
 
-### [best-time-to-buy-and-sell-stock-with-cooldown](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
+### [best-time-to-buy-and-sell-stock-with-cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
 
 > 给定股票每天的价格，每天可以买入卖出，买入后必须卖出才可以进行下一次购买，卖出后一天不可以购买，问可以获得的最大利润
 
@@ -629,7 +629,7 @@ class Solution:
         return max(buy, buy_then_nothing, sell, sell_then_nothing)
 ```
 
-### [word-break-ii](https://leetcode-cn.com/problems/word-break-ii/)
+### [word-break-ii](https://leetcode.com/problems/word-break-ii/)
 
 > 给定字符串和可选的单词列表，求字符串所有的分割方式
 
@@ -671,7 +671,7 @@ class Solution:
         return result
 ```
 
-### [burst-balloons](https://leetcode-cn.com/problems/burst-balloons/)
+### [burst-balloons](https://leetcode.com/problems/burst-balloons/)
 
 > n 个气球排成一行，每个气球上有一个分数，每次戳爆一个气球得分为该气球分数和相邻两气球分数的乘积，求最大得分
 
@@ -703,27 +703,27 @@ class Solution:
 
 Matrix DP (10%)
 
-- [ ] [triangle](https://leetcode-cn.com/problems/triangle/)
-- [ ] [minimum-path-sum](https://leetcode-cn.com/problems/minimum-path-sum/)
-- [ ] [unique-paths](https://leetcode-cn.com/problems/unique-paths/)
-- [ ] [unique-paths-ii](https://leetcode-cn.com/problems/unique-paths-ii/)
+- [ ] [triangle](https://leetcode.com/problems/triangle/)
+- [ ] [minimum-path-sum](https://leetcode.com/problems/minimum-path-sum/)
+- [ ] [unique-paths](https://leetcode.com/problems/unique-paths/)
+- [ ] [unique-paths-ii](https://leetcode.com/problems/unique-paths-ii/)
 
 Sequence (40%)
 
-- [ ] [climbing-stairs](https://leetcode-cn.com/problems/climbing-stairs/)
-- [ ] [jump-game](https://leetcode-cn.com/problems/jump-game/)
-- [ ] [jump-game-ii](https://leetcode-cn.com/problems/jump-game-ii/)
-- [ ] [palindrome-partitioning-ii](https://leetcode-cn.com/problems/palindrome-partitioning-ii/)
-- [ ] [longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
-- [ ] [word-break](https://leetcode-cn.com/problems/word-break/)
+- [ ] [climbing-stairs](https://leetcode.com/problems/climbing-stairs/)
+- [ ] [jump-game](https://leetcode.com/problems/jump-game/)
+- [ ] [jump-game-ii](https://leetcode.com/problems/jump-game-ii/)
+- [ ] [palindrome-partitioning-ii](https://leetcode.com/problems/palindrome-partitioning-ii/)
+- [ ] [longest-increasing-subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+- [ ] [word-break](https://leetcode.com/problems/word-break/)
 
 Two Sequences DP (40%)
 
-- [ ] [longest-common-subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/)
-- [ ] [edit-distance](https://leetcode-cn.com/problems/edit-distance/)
+- [ ] [longest-common-subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+- [ ] [edit-distance](https://leetcode.com/problems/edit-distance/)
 
 Backpack & Coin Change (10%)
 
-- [ ] [coin-change](https://leetcode-cn.com/problems/coin-change/)
+- [ ] [coin-change](https://leetcode.com/problems/coin-change/)
 - [ ] [backpack](https://www.lintcode.com/problem/backpack/description)
 - [ ] [backpack-ii](https://www.lintcode.com/problem/backpack-ii/description)

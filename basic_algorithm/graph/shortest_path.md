@@ -4,7 +4,7 @@
 
 在处理不带权图的最短路径问题时可以使用 BFS。
 
-### [walls-and-gates](https://leetcode-cn.com/problems/walls-and-gates/)
+### [walls-and-gates](https://leetcode.com/problems/walls-and-gates/)
 
 > 给定一个二维矩阵，矩阵中元素 -1 表示墙或是障碍物，0 表示一扇门，INF (2147483647) 表示一个空的房间。你要给每个空房间位上填上该房间到最近门的距离，如果无法到达门，则填 INF 即可。
 
@@ -58,7 +58,7 @@ class Solution:
         return
 ```
 
-### [shortest-bridge](https://leetcode-cn.com/problems/shortest-bridge/)
+### [shortest-bridge](https://leetcode.com/problems/shortest-bridge/)
 
 > 在给定的 01 矩阵 A 中，存在两座岛 (岛是由四面相连的 1 形成的一个连通分量)。现在，我们可以将 0 变为 1，以使两座岛连接起来，变成一座岛。返回必须翻转的 0 的最小数目。
 
@@ -117,7 +117,7 @@ class Solution:
 
 用于求解单源最短路径问题。思想是 greedy 构造 shortest path tree (SPT)，每次将当前距离源点最短的不在 SPT 中的结点加入SPT，与构造最小生成树 (MST) 的 Prim's algorithm 非常相似。可以用 priority queue (heap) 实现。
 
-### [network-delay-time](https://leetcode-cn.com/problems/network-delay-time/)
+### [network-delay-time](https://leetcode.com/problems/network-delay-time/)
 
 - 标准的单源最短路径问题，使用朴素的 Dijikstra 算法即可。
 
@@ -145,7 +145,7 @@ class Solution:
         return max(SPT.values()) if len(SPT) == N else -1
 ```
 
-### [cheapest-flights-within-k-stops](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops/)
+### [cheapest-flights-within-k-stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
 
 - 在标准的单源最短路径问题上限制了路径的边数，因此需要同时维护当前 SPT 内每个结点最短路径的边数，当遇到边数更小的路径 (边权和可以更大) 时结点需要重新入堆，以更新后继在边数上限内没达到的结点。
 
@@ -187,7 +187,7 @@ class Solution:
 
 当求点对点的最短路径时，BFS遍历结点数目随路径长度呈指数增长，为缩小遍历结点数目可以考虑从起点 BFS 的同时从终点也做 BFS，当路径相遇时得到最短路径。
 
-### [word-ladder](https://leetcode-cn.com/problems/word-ladder/)
+### [word-ladder](https://leetcode.com/problems/word-ladder/)
 
 ```Python
 class Solution:
@@ -256,7 +256,7 @@ class Solution:
 
 当需要求解有目标的最短路径问题时，BFS 或 Dijkstra's algorithm 可能会搜索过多冗余的其他目标从而降低搜索效率，此时可以考虑使用 A* algorithm。原理不展开，有兴趣可以自行搜索。实现上和 Dijkstra’s algorithm 非常相似，只是优先级需要加上一个到目标点距离的估值，这个估值严格小于等于真正的最短距离时保证得到最优解。当 A* algorithm 中的距离估值为 0 时 退化为 BFS 或 Dijkstra’s algorithm。
 
-### [sliding-puzzle](https://leetcode-cn.com/problems/sliding-puzzle)
+### [sliding-puzzle](https://leetcode.com/problems/sliding-puzzle)
 
 - 方法 1：BFS。为了方便对比 A* 算法写成了与其相似的形式。
 
